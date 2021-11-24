@@ -3,18 +3,13 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.navbar{
-    color: whitesmoke;
-    background-color: black;
-}
-
 .pageBody{
     background-color: white;
     font-size: 16pt;
     align-content: center;
     text-align: center;
-    margin-right: 10%;
-    margin-left: 10%;    
+    margin-right: 5%;
+    margin-left: 5%;    
     padding-top: 10pt;
     padding-bottom: 10pt;
     box-shadow: 0 4px 8px 0 black;
@@ -24,6 +19,7 @@ body{
 
 .homeh1{
     color: white;
+    font-size: 48pt;
     text-align: center;
     padding: 20pt;
     
@@ -50,12 +46,89 @@ body{
 
 .homeh2{
     color: white;
+    font-size: 30;
     text-shadow: 2px 2px 4px black;
 }
 
 .homep{
     color: white;
+    font-size: 16pt;
     text-align: center;
+}
+
+.linktext{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.photomenu{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    direction: column;
+    flex-wrap: wrap;
+}
+
+.homelink{
+    color: white;
+    font-size: 48pt;
+    background-color: rgba(49, 0, 3, 0.863);
+    border-radius: 25px;
+    padding: 10pt;
+    text-decoration: none;
+}
+
+.homelink:hover{
+    color: white;
+    opacity: 50%;
+}
+
+#drinksimg{
+    background-image: url("drinkmenu.jpg");
+    background-color: rgb(61, 10, 10);
+    width: 300pt;
+    height: 300pt;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#foodimg{
+    background-image: url("bakeryMenu.jpg");
+    background-color: rgb(61, 10, 10);;
+    width: 300pt;
+    height: 300pt;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#aboutimg{
+    background-image: url("beans.jpg");
+    background-color: rgb(61, 10, 10);;
+    width: 300pt;
+    height: 300pt;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#contactimg{
+    background-image: url("contact.jpg");
+    background-color: rgb(61, 10, 10);;
+    width: 300pt;
+    height: 300pt;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 /* MENU PAGES ELEMENTS */

@@ -241,3 +241,8 @@ img{
 .navbar-brand:hover{
     color: white;
 }
+
+.navbar-light{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}

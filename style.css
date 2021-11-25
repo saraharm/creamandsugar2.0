@@ -107,6 +107,7 @@ img{
     background-size: cover;
     position: relative;
     box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 10pt;
 }
 
 #foodimg{
@@ -119,6 +120,7 @@ img{
     background-size: cover;
     position: relative;
     box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 10pt;
 }
 
 #aboutimg{
@@ -131,6 +133,7 @@ img{
     background-size: cover;
     position: relative;
     box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 10pt;
 }
 
 #contactimg{
@@ -143,6 +146,7 @@ img{
     background-size: cover;
     position: relative;
     box-shadow: 0 4px 8px 0 black;
+    margin-bottom: 10pt;
 }
 
 /* MENU PAGES ELEMENTS */

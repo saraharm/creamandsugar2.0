@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(61, 10, 10);
+    background-color: rgba(61, 10, 10, 0.904);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -20,6 +20,10 @@ img{
 }
 
 /* HOME PAGE ELEMENTS */
+
+#homebody{
+    background-color: rgb(61, 10, 10);
+}
 
 .homeh1{
     color: white;
@@ -214,4 +218,26 @@ img{
 #contactpageimg{
     width: 75%;
     height: auto
+}
+
+.navbar{
+    background-color: rgb(61, 10, 10);
+    box-shadow: 0 4px 8px 0 black;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+    opacity: 50%;
+}
+
+.navbar-brand{
+    color: white
+}
+
+.navbar-brand:hover{
+    color: white;
 }

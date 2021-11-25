@@ -3,6 +3,10 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+img{
+    width: 100%;
+}
+
 .pageBody{
     background-color: white;
     font-size: 16pt;
@@ -156,6 +160,58 @@ body{
 }
 
 /* ABOUT US PAGE ELEMENTS */
+.aboutDisp{
+    display: flex;
+    justify-content: space-arond;
+    align-items: center;
+    padding: 10pt;
+}
 
+.aboutp{
+    color: rgb(63, 62, 62);
+}
+
+.abouth1{
+    color: black;
+}
+
+.abouth2{
+    color: black;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+
+}
+
+.abouth3{
+    color: rgb(63, 62, 62);
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+#colabout{
+    padding-top: 20pt;
+}
 
 /* CONTACT US PAGE ELEMENTS */
+
+.contacth1{
+    color: black;
+}
+
+.contacth2{
+    color: black;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+
+}
+
+.contacth3{
+    color: rgb(63, 62, 62);
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+#contactpageimg{
+    width: 75%;
+    height: auto
+}
